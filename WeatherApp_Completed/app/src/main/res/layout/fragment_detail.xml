@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#55000000"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="50dp"
+        android:background="#8c8888"
+        android:foregroundGravity="center">
+
+        <!--        Weather-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="15dp"
+            android:text="Thời tiết :"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tvWeatherFm"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Cloudy"
+            android:textColor="#fff" />
+
+        <!--        Date-->
+        <TextView
+            android:id="@+id/tvDateFm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="59dp"
+            android:text="11-04-19"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="59dp"
+            android:text="Ngày :"
+            android:textColor="#fff" />
+
+        <!--        PoP-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="93dp"
+            android:text="Khả năng mưa :"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tvPrecipProbabilityFm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="127dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="93dp"
+            android:text="Pop"
+            android:textColor="#fff" />
+
+        <!--        Temperature Max-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="127dp"
+            android:text="Nhiệt độ tối đa :"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tvTeperatureMaxFm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="127dp"
+            android:text="20"
+            android:textColor="#fff" />
+
+        <!--        Temperature Min-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="174dp"
+            android:layout_marginTop="161dp"
+            android:text="Nhiệt độ tối thiểu :"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tvTeperatureMinFm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="143dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="161dp"
+            android:text="20"
+            android:textColor="#fff" />
+
+        <!--         Wind speed-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="195dp"
+            android:text="Tốc độ gió :"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tvWindSpeedFm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="195dp"
+            android:text="wind speed"
+            android:textColor="#fff" />
+
+        <!--        Win gust-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="229dp"
+            android:text="Gió mạnh giật :"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tvWindGustFm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="229dp"
+            android:text="wind gust"
+            android:textColor="#fff" />
+
+        <!--        Air Pressure-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="263dp"
+            android:text="Áp suất không khí :"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tvAirPressureFm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="263dp"
+            android:text="airpressure"
+            android:textColor="#fff" />
+
+        <!--        Humidity-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="297dp"
+            android:text="Độ ẩm :"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tvHumidityFm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="297dp"
+            android:text="humidity"
+            android:textColor="#fff" />
+
+        <!--        Visibility-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="331dp"
+            android:text="Tầm nhìn xa :"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tvVisibilityFm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="115dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="331dp"
+            android:text="visibility"
+            android:textColor="#fff" />
+
+
+        <!--        UV Index-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="365dp"
+            android:text="Chỉ số UV :"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tvUvIndexFm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="365dp"
+            android:text="uv index"
+            android:textColor="#fff" />
+
+        <!--        Ozone Density-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="399dp"
+            android:text="Mật độ ozone :"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tvOzoneDensityFm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="127dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="399dp"
+            android:text="ozoneDensity"
+            android:textColor="#fff" />
+
+        <!--        Cloud Cover -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="433dp"
+            android:text="Mây hội tụ :"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tvCloudCoverFm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="433dp"
+            android:text="cloudcover"
+            android:textColor="#fff" />
+
+        <!--        Button OK -->
+        <Button
+            android:id="@+id/btnShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="130dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="20dp"
+            android:onClick="showFragment"
+            android:text="OK"
+            android:textColor="#fff" />
+
+    </RelativeLayout>
+</LinearLayout>

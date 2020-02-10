@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:background="#55FFFFFF"
+    android:layout_marginBottom="20dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvDateFm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:text="SUNDAY 19 OCT"
+            android:textColor="#000"
+            android:textSize="20dp"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/ivWeather"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/weather1" />
+
+        <LinearLayout
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvWeather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#00413939"
+                android:text="An afternoon thunderstorm"
+                android:textColor="#F0110F0F"
+
+                android:textSize="17dp" />
+            <!--            android:textColor="#F0110F0F"-->
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="#00413939"
+                android:text="Description"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|left"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tvTemperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="33&#176;"
+                android:textColor="#000"
+                android:textSize="30dp"></TextView>
+
+            <TextView
+                android:id="@+id/tvWind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="40km/h"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_marginRight="5dp"></TextView>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <!--  NIGHT-->
+
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Night"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:layout_marginLeft="15dp">-->
+    <!--    </TextView>-->
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:background="#22000000">-->
+
+
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="80dp"-->
+    <!--            android:layout_height="80dp"-->
+    <!--            android:layout_margin="10dp"-->
+    <!--            android:src="@drawable/weather1" />-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="210dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="10dp"-->
+    <!--            android:layout_marginBottom="10dp"-->
+    <!--            android:orientation="vertical"-->
+    <!--            android:layout_marginLeft="0dp"-->
+    <!--            android:layout_marginRight="5dp">-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="15dp"-->
+    <!--                android:background="#00413939"-->
+    <!--                android:text="An afternoon thunderstorm"-->
+    <!--                android:textColor="#F0110F0F"-->
+
+    <!--                android:textSize="17dp"-->
+    <!--                />-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="35dp"-->
+    <!--                android:background="#00413939"-->
+    <!--                android:textSize="17dp"-->
+    <!--                android:text="Description"/>-->
+    <!--        </LinearLayout>-->
+
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_gravity="center_horizontal"-->
+    <!--            android:gravity="center_vertical|left"-->
+    <!--            android:orientation="vertical"-->
+    <!--            >-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:gravity="center"-->
+    <!--                android:text="33&#176;"-->
+    <!--                android:textColor="#000"-->
+    <!--                android:textSize="30dp"></TextView>-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:gravity="center"-->
+    <!--                android:text="40km/h"-->
+    <!--                android:textColor="#000"-->
+    <!--                android:textSize="15dp"></TextView>-->
+
+
+
+    <!--        </LinearLayout>-->
+    <!--    </LinearLayout>-->
+
+</LinearLayout>

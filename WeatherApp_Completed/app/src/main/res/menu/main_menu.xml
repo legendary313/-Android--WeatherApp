@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/WeatherMap"
+        android:title="WeatherMap"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/Comment"
+        android:title="Bình Luận"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/WeatherForecast"
+    android:title="Dự Báo Thời Tiết"
+    app:showAsAction="never"/>
+
+    <item android:id="@+id/Reminder"
+        android:title="Đặt Thời Gian"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/ChangeBackGround"
+        android:title="Thay Đổi Hình Nền"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/FeedBack"
+        android:title="Phản Hồi"
+        app:showAsAction="never"/>
+
+</menu>

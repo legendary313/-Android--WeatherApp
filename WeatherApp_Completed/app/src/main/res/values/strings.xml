@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="new_string">New</string>
+    <string name="delete_string">Delete</string>
+    <string name="edit_string">Edit</string>
+    <string name="empty_string">Empty</string>
+    <string name="ok_string">Ok</string>
+    <string name="select_date_string">Select date</string>
+    <string name="select_time_string">Select time</string>
+</resources>

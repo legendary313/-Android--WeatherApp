@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ĐẶT THỜI GIAN"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:textSize="50dp"/>
+
+    <Button
+        android:id="@+id/okBtn"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="160dp"
+        android:layout_below="@+id/selectDateBtn"
+        android:text="@string/ok_string"/>
+
+    <EditText
+        android:id="@+id/editTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Giờ:Phút"
+        android:layout_below="@+id/mainText"
+        android:layout_marginTop="52dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/editDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selectTimeBtn"
+        android:layout_marginTop="52dp"
+        android:hint="Năm-Tháng-Ngày"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/selectTimeBtn"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTime"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="150dp"
+        android:text="@string/select_time_string" />
+
+    <Button
+        android:id="@+id/selectDateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/editDate"
+        android:layout_marginLeft="150dp"
+        android:text="@string/select_date_string"
+        />
+    </RelativeLayout>
+
+</LinearLayout>
